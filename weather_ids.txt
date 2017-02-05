@@ -1,0 +1,10 @@
+
+thunderstorm 200-232
+drizzle 300 - 321
+rain 500-531
+snow 600-622
+atmosphere 701-781 mist, haze, smog, fog, sand, volcanic ash
+clear 800
+clouds 801 - 804
+extreme 900-906 tornado, cold, hot , windy, tropical storm etc
+additional 951-962 calm, light breeze, gale etc

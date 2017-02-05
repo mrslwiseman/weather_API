@@ -1,0 +1,22 @@
+weather API app.
+17.1.17
+
+things to improve upon
+
+------------------
+UI
+------------------
+
+  improved icons
+  make it look better on desktop
+  background variations
+  C | F transition
+
+------------------
+Features
+------------------
+
+  Search by city
+  Drop down list of search results
+  log changes in temperature
+  draw lines mapping changes in temperature

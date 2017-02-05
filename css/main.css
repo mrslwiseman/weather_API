@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+* {
+  box-sizing: border-box;
+}
+
+div {
+
+    /*border:1px solid white;*/
+}
+
+
+ html, body,main {
+
+height: 100%;
+}
+
+body {
+    background-color: #EECE2F;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+
+  display:flex;
+  flex-direction: column;
+overflow:hidden;
+
+background-size: cover;
+background-position: center;
+
+}
+
+
+
+main {
+
+
+
+  color:white;
+  display: flex;
+  flex-direction: column;
+}
+
+#weatherImage {
+  width:200px;
+}
+
+
+#container1 {
+
+  display: flex;
+flex-direction: column;
+justify-content: center;
+  flex:1;
+}
+
+
+
+#forecastWeek {
+
+  padding: 10px 0;
+font-size:.9em;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.forecastDays {
+  display:inline-block;
+}
+.forecastDays div{
+
+}
+
+#forecastDay {
+
+}
+
+#moreWeather {
+padding:30px 0;
+display: flex;
+justify-content: space-around;
+font-size:.9em;
+}
+
+
+#moreWeather div {
+    display:inline-block;
+  display:flex;
+  align-items: center;
+  margin-right:3px;
+}
+
+
+#icon {
+  width:50px;
+  height:50px;
+  margin:0 auto;
+}
+
+#highTempIcon,
+#lowTempIcon,
+#rainIcon,
+#windIcon {
+  width:30px;
+  height:30px;
+
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#highTempIcon {
+  background-image: url("../img/icons/high.png");
+
+}
+#lowTempIcon {
+  background-image: url("../img/icons/low.png");
+
+}
+#rainIcon {
+background-image: url("../img/icons/rain.png");
+
+}
+#windIcon{
+background-image: url("../img/icons/wind.png");
+
+}
+
+
+
+
+/* ----------------------------
+typography
+
+----------------------------*/
+
+#temperature {
+margin:30px 0;
+}
+
+ #mainTemp {
+   font-size: 5em;
+
+   font-weight: 100;
+
+ }
+#city {
+  margin-bottom: 1em;
+  font-size:1.5em;
+  font-weight: 100;
+}
+
+#weather {
+  font-weight: 300;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+
+
+
+#unit {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  font-size: 1em;
+  color: white;
+  }
+  /*.selectedUnit {
+      color:#000;
+    }*/
+
+  .forecastTemp {
+    font-weight: 500;
+  }
